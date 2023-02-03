@@ -1,0 +1,29 @@
+.mat-mdc-dialog-content {
+    padding-top: 1rem;
+    display: grid;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+  }
+
+  .flex>* {
+    flex: 1;
+    color: rgb(30, 29, 29) !important;
+    background: var(--color);
+    transition: .2s all ease;
+  }
+
+  .flex>*:hover {
+    outline: .2rem solid var(--color);
+  }
+
+  button:first-of-type {
+    --color: rgb(155, 36, 36);
+  }
+
+  button:nth-of-type(2) {
+    --color: rgb(225, 218, 15);
+  }

@@ -1,0 +1,8 @@
+table {
+    max-width: 100%;
+  }
+
+  h2+button {
+    background-color: rgb(238, 238, 12) !important;
+    margin-bottom: 1rem;
+  }

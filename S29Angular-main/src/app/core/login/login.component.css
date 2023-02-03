@@ -1,0 +1,6 @@
+.login-box {
+    display: grid;
+    width: min(30rem, 100%);
+    margin-inline: auto;
+    border-radius: .3rem;
+  }

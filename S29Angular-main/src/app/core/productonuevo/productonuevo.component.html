@@ -1,0 +1,21 @@
+<h1 mat-dialog-title>Editar producto {{data.n_orden}}</h1>
+
+<div mat-dialog-content>
+  <!-- <p>¿Cuál es tu deporte favorito?</p> -->
+  <mat-form-field appearance="outline">
+    <mat-label>Descripcion</mat-label>
+    <input matInput [(ngModel)]="data.nombre">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Precio</mat-label>
+    <input matInput [(ngModel)]="data.precio" type="number">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions class="flex">
+  <button mat-button color="warn" (click)="onNoClick()">Cancelar</button>
+  <button mat-button color="accent" [mat-dialog-close]="data" cdkFocusInitial>Aceptar</button>
+</div>
+
+<style>
+
+</style>
